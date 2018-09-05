@@ -1,0 +1,13 @@
+body{
+	background-color: rgba(246, 250, 218, .5);
+}
+
+
+#test{
+	text-align: center;
+	font-size: 20px;
+}
+
+.alignCenter{
+	text-align: center;
+}

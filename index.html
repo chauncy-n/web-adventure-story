@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>choose your story</title>
+	<title>my js practice</title>
+	
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-	<div class="story-image"></div>
+<body onload = "storyStart()" >
+  
+  <img src="#">
+  
+  <p id = "test">You are leaving your home village to explore the world.  You see 2 paths before you, one to the left and one to the right. Which path do you take?</p>
+  
+  <div class="alignCenter">
+  	answer: <input type="text" name = "answer" id = "answer"><br>
+  
+    <button onclick = "story()" id="storyButton">submit answer</button>
+  </div>
 
-<p id="demo">JavaScript can change HTML content.</p>
+  <script src="js/main.js"></script>
 
-<button type="button" id="button">Click Me!</button>
-
-	
-	<!--<button type="button" onclick="newDialog"> submit answer</button>
-	
-	<p id="dialog">You are leaving your home village to explore the world.  You see 2 paths before you, one to the left and one to the right. Which path do you take?"</p>
-	!-->
 </body>
+	
+<footer>
+	
+</footer>
 
-<script src="js/main.js"></script>
 </html>
