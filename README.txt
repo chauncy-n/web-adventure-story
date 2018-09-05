@@ -1,0 +1,1 @@
+This is an adventure story site.  I hope to create stories with options  that allow you to have different adventures.  If I do this right I will also add images to go along with the story.
